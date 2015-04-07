@@ -20,7 +20,7 @@ Travis CI runs ```npm test``` after it fetched your project and installed the de
 
 ```
 "scripts": {
-  "test": "grunt travis --verbose"
+  "test": "grunt default --verbose"
 }
 ```
 
