@@ -1,0 +1,21 @@
+{
+  "curly":true,
+  "eqeqeq":true,
+  "undef":true,
+  "unused":false,
+  "eqnull":true,
+  "noarg":true,
+  "nonew":false,
+  "browser":true,
+  "jquery":true,
+  "evil":true,
+  "laxcomma":true,
+  "devel":false,
+  "globals":{
+    "console": true,
+    "module": true,
+    "__dirname":true,
+    "exports": true,
+    "require":true
+  }
+}

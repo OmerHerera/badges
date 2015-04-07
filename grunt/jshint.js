@@ -1,6 +1,6 @@
 module.exports = {
     options:{
-        jshintrc:".jshintrc"
+        jshintrc:"./grunt/.jshintrc"
     },
     files: ["./src/*.js"]
 };
