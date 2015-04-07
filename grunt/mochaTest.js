@@ -37,5 +37,13 @@ module.exports = {
             "captureFile": "./coverage/results.txt"
         },
         src: ['./coverage/test/*.js']
+    },
+    "mocha-lcov-reporter": {
+        "options": {
+            reporter: "mocha-lcov-reporter",
+            quiet: true,
+            captureFile: "./coverage/lcov.info"
+        },
+        src: ['./coverage/test/*.js']
     }
 };

@@ -1,6 +1,7 @@
 # Badges, Badges, Badges, Badges ...
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Build Status](https://travis-ci.org/OmerHerera/badges.svg?branch=master)](https://travis-ci.org/OmerHerera/badges)
+[![Code Climate](https://codeclimate.com/github/OmerHerera/badges/badges/gpa.svg)](https://codeclimate.com/github/OmerHerera/badges)
 
 Tutorial when creating a new repo and want to use badges ;-)
 
@@ -42,3 +43,16 @@ After these changes your project is ready to be continuously builded with Travis
 
 Now You can use the build status badge:
 Read more in [here](http://docs.travis-ci.com/user/status-images/)
+
+* * * 
+
+####Code Analysis
+I'm using [Code Climate](https://codeclimate.com/)
+
+What is Code Climate: 
+Code Climate hosted software metrics help you ship quality Ruby, PHP and JavaScript code faster. Get control of your technical debt with real time static ...
+
+They use GPA fro their metrics:
+Learn more about their [GPA (grade point average)](http://docs.codeclimate.com/article/150-glossary-gpa)
+
+* * *
