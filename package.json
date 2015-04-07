@@ -1,0 +1,39 @@
+{
+  "name": "badges",
+  "version": "1.0.0",
+  "description": "tutorial using badges in git and npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "keywords": [
+    "badges",
+    "tutorial",
+    "versions",
+    "git",
+    "github",
+    "npm"
+  ],
+  "author": "Omer Herera",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "colors": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "grunt": "^0.4.5",
+    "grunt-blanket": "0.0.8",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-mocha-cli": "^1.13.0",
+    "grunt-mocha-test": "^0.12.7",
+    "load-grunt-config": "^0.16.0",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0",
+    "time-grunt": "^1.1.0",
+    "travis-cov": "^0.2.5"
+  }
+}

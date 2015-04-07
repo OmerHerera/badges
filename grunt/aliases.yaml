@@ -1,0 +1,6 @@
+default:
+  - 'jshint'
+  - 'clean'
+  - 'copy'
+  - 'blanket'
+  - 'mochaTest'
