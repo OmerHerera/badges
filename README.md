@@ -2,6 +2,7 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Build Status](https://travis-ci.org/OmerHerera/badges.svg?branch=master)](https://travis-ci.org/OmerHerera/badges)
 [![Code Climate](https://codeclimate.com/github/OmerHerera/badges/badges/gpa.svg)](https://codeclimate.com/github/OmerHerera/badges)
+[![Coverage Status](https://coveralls.io/repos/OmerHerera/badges/badge.svg)](https://coveralls.io/r/OmerHerera/badges)
 
 Tutorial when creating a new repo and want to use badges ;-)
 
