@@ -1,5 +1,6 @@
 # Badges, Badges, Badges, Badges ...
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Build Status](https://travis-ci.org/OmerHerera/badges.svg?branch=master)](https://travis-ci.org/OmerHerera/badges)
 
 Tutorial when creating a new repo and want to use badges ;-)
 
@@ -38,3 +39,6 @@ node_js:
 After these changes your project is ready to be continuously builded with Travis CI. 
 
 *<strong>But don’t forget to setup the Service Hook on Github!</strong>*
+
+Now You can use the build status badge:
+Read more in [here](http://docs.travis-ci.com/user/status-images/)
