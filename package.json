@@ -12,7 +12,8 @@
     "versions",
     "git",
     "github",
-    "npm"
+    "npm",
+    "readme"
   ],
   "author": "Omer Herera",
   "license": "MIT",
@@ -37,5 +38,10 @@
     "should": "^5.2.0",
     "time-grunt": "^1.1.0",
     "travis-cov": "^0.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmerHerera/badges.git"
   }
+  
 }
