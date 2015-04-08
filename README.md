@@ -5,6 +5,9 @@
 [![Coverage Status](https://coveralls.io/repos/OmerHerera/badges/badge.svg?branch=master)](https://coveralls.io/r/OmerHerera/badges?branch=master)
 [![Dependency Status](https://david-dm.org/OmerHerera/badges.svg?theme=shields.io)](https://david-dm.org/OmerHerera/badges)
 [![devDependency Status](https://david-dm.org/OmerHerera/badges/dev-status.svg?theme=shields.io)](https://david-dm.org/OmerHerera/badges#info=devDependencies)
+[![npm version](https://badge.fury.io/js/badgess.svg)](http://badge.fury.io/js/badgess)
+[![npm downloads](https://img.shields.io/npm/dm/bagdess.svg)](https://img.shields.io/npm/dm/bagdess.svg)
+[![NPM](https://nodei.co/npm/badgess.png)](https://nodei.co/npm/badgess/)
 
 
 Tutorial when creating a new repo and want to use badges ;-)
@@ -75,8 +78,20 @@ I'm using [coveralls](https://coveralls.io/), coveralls can work soomtly with Tr
 ![David](/images/logo-david.png)
 
 I recommend [david-dm.org](https://david-dm.org).
+
 David is free for public projects on Github.
 
 David gets you an overview of your project dependencies, the version you use and the latest available, so you can quickly see what's drifting. Then it's all boiled down into a badge showing the current status, which you can embed on your site
 
 Declare your dependencies in a package.json file and you're good.
+
+
+* * * 
+
+# Version badge
+
+[Versions](https://badge.fury.io/)
+
+[npm downloads](https://img.shields.io)
+
+[NPM](https://nodei.co/)

@@ -1,6 +1,6 @@
 {
   "name": "badgess",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tutorial using badges in git and npm",
   "main": "index.js",
   "scripts": {
