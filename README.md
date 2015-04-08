@@ -11,8 +11,7 @@ Tutorial when creating a new repo and want to use badges ;-)
 
 * * *
 
-####Build Process
-Meet Travis CI
+#Build Process
 ![Meet Travis CI](/images/travis-mascot-200px.png)
 
 I choosed Travis CI, its free for open/public repos. 
@@ -21,7 +20,7 @@ In software development, Travis CI is an open-source hosted, distributed continu
 
 More in [Travis CI](https://travis-ci.org)
 
-###Adding the npm task for travis-ci
+##Adding the npm task for travis-ci
 Travis CI runs ```npm test``` after it fetched your project and installed the dependencies, so we need to add this task to the package.json file.
 
 ```
@@ -32,7 +31,7 @@ Travis CI runs ```npm test``` after it fetched your project and installed the de
 
 *<strong>I’ve added the --verbose option, so we’ll see more output of what is going on.</strong>*
  
-####Adding the .travis.yml
+##Adding the .travis.yml
 Every Travis CI project needs to have a .travis.yml file in the root of the project folder, so it know what platform and version it should use to build/test your project. Here’s the one I used:
 
 ```
@@ -50,7 +49,9 @@ Read more in [here](http://docs.travis-ci.com/user/status-images/)
 
 * * * 
 
-####Code Analysis
+#Code Analysis
+![Code Climate](/images/code-climate-stickers.png)
+
 I'm using [Code Climate](https://codeclimate.com/)
 
 What is Code Climate: 
@@ -61,13 +62,20 @@ Learn more about their [GPA (grade point average)](http://docs.codeclimate.com/a
 
 * * *
 
-####Code Analysis
+#Coverage
+![Coveralls](/images/coveralls_logo.png)
+
 I'm using [coveralls](https://coveralls.io/), coveralls can work soomtly with Travis-ci, in order to submit yor coverage to coveralls, I'm integrating in my GruntFile the following:
 1. [mocha-lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) - This will report from mocha to the target file
 2. [grunt-coveralls](https://github.com/pimterry/grunt-coveralls) - This will submit the coverage result to coveralls
 
-Depencies
-Use [david-dm.org](https://david-dm.org), David is free for public projects on Github.
+* * *
+
+#Badges Dependencies
+![David](/images/logo-david.png)
+
+I recommend [david-dm.org](https://david-dm.org).
+David is free for public projects on Github.
 
 David gets you an overview of your project dependencies, the version you use and the latest available, so you can quickly see what's drifting. Then it's all boiled down into a badge showing the current status, which you can embed on your site
 
