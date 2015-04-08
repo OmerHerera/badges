@@ -2,7 +2,10 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Build Status](https://travis-ci.org/OmerHerera/badges.svg?branch=master)](https://travis-ci.org/OmerHerera/badges)
 [![Code Climate](https://codeclimate.com/github/OmerHerera/badges/badges/gpa.svg)](https://codeclimate.com/github/OmerHerera/badges)
-[![Coverage Status](https://coveralls.io/repos/OmerHerera/badges/badge.svg)](https://coveralls.io/r/OmerHerera/badges)
+[![Coverage Status](https://coveralls.io/repos/OmerHerera/badges/badge.svg?branch=master)](https://coveralls.io/r/OmerHerera/badges?branch=master)
+[![Dependency Status](https://david-dm.org/OmerHerera/badges.svg?theme=shields.io)](https://david-dm.org/OmerHerera/badges)
+[![devDependency Status](https://david-dm.org/OmerHerera/badges/dev-status.svg?theme=shields.io)](https://david-dm.org/OmerHerera/badges#info=devDependencies)
+
 
 Tutorial when creating a new repo and want to use badges ;-)
 
@@ -57,3 +60,15 @@ They use GPA fro their metrics:
 Learn more about their [GPA (grade point average)](http://docs.codeclimate.com/article/150-glossary-gpa)
 
 * * *
+
+####Code Analysis
+I'm using [coveralls](https://coveralls.io/), coveralls can work soomtly with Travis-ci, in order to submit yor coverage to coveralls, I'm integrating in my GruntFile the following:
+1. [mocha-lcov-reporter](https://github.com/StevenLooman/mocha-lcov-reporter) - This will report from mocha to the target file
+2. [grunt-coveralls](https://github.com/pimterry/grunt-coveralls) - This will submit the coverage result to coveralls
+
+Depencies
+Use [david-dm.org](https://david-dm.org), David is free for public projects on Github.
+
+David gets you an overview of your project dependencies, the version you use and the latest available, so you can quickly see what's drifting. Then it's all boiled down into a badge showing the current status, which you can embed on your site
+
+Declare your dependencies in a package.json file and you're good.
