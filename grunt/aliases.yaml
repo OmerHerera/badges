@@ -4,3 +4,4 @@ default:
   - 'copy'
   - 'blanket'
   - 'mochaTest'
+  - 'coveralls'
