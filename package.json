@@ -1,6 +1,6 @@
 {
   "name": "badgess",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "tutorial using badges in git and npm",
   "main": "index.js",
   "scripts": {
@@ -43,5 +43,5 @@
     "type": "git",
     "url": "https://github.com/OmerHerera/badges.git"
   }
-  
+
 }

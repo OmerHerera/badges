@@ -23,14 +23,6 @@ function _privateAsync(err) {
         ],
         // optional callback
         function(err, results){
-            if (err) {
-                console.log('hello error'.red); // outputs green text
-            }
-            else {
-                console.log('hello green'.green); // outputs green text
-            }
-            // the results array will equal ['one','two'] even though
-            // the second function had a shorter timeout.
         });
 }
 
