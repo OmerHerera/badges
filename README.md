@@ -6,7 +6,7 @@
 [![Dependency Status](https://david-dm.org/OmerHerera/badges.svg?theme=shields.io)](https://david-dm.org/OmerHerera/badges)
 [![devDependency Status](https://david-dm.org/OmerHerera/badges/dev-status.svg?theme=shields.io)](https://david-dm.org/OmerHerera/badges#info=devDependencies)
 [![npm version](https://badge.fury.io/js/badgess.svg)](http://badge.fury.io/js/badgess)
-[![npm downloads](https://img.shields.io/npm/dm/bagdess.svg)](https://img.shields.io/npm/dm/bagdess.svg)
+[![npm downloads](https://img.shields.io/npm/dm/badgess.svg)](https://img.shields.io/npm/dm/badgess.svg)
 [![NPM](https://nodei.co/npm/badgess.png)](https://nodei.co/npm/badgess/)
 
 
